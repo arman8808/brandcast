@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: #ffffff;
+  background: #241f21;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+.text-border {
+  text-shadow: -1px -1px 0 #ffbb01, 1px -1px 0 #ffbb01, -1px 1px 0 #ffbb01,
+    1px 1px 0 #ffbb01;
+}
+/* Base button styling */
+.button {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+
+  border: none;
+
+  transition: all 0.3s ease;
+}
+
+/* Button hover state */
+.button:hover {
+  transform: scale(1.05);
+}
+
+/* Button focus state */
+.button:focus {
+  outline: none;
+}
+.shadow {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.blurBackground {
+  background: radial-gradient(
+      circle at 20% 50%,
+      rgba(255, 183, 0, 0.3),
+      /* yellow on the left */ transparent 30%
+    ),
+    radial-gradient(
+      circle at 80% 50%,
+      rgba(80, 255, 255, 0.1),
+      /* green/blue on the right */ transparent 30%
+    ),
+    #2c2c2c; /* Dark gray center */
+
+  border-radius: 20px; /* Optional: for rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: for depth */
+}
+/* For WebKit browsers (Chrome, Safari) */
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display,
+audio::-webkit-media-controls-mute-button,
+audio::-webkit-media-controls-volume-slider-container {
+  color: #ffbb01; /* Change the color of the controls like play button */
+}
+
+audio::-webkit-media-controls-timeline-container {
+  background-color: #ffbb01; /* Color of the progress */
+}
+
+/* Firefox */
+audio::-moz-range-track {
+  background-color: #ffbb01; /* Color of the progress bar in Firefox */
+}
+.custom-underline {
+  display: inline-block; /* to limit the underline to the width of the text */
+  border-bottom: 1px solid #ffbb01; /* change the color and thickness as desired */
+}
+.custom-linear-background {
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 187, 1, 0.15),
+    rgba(255, 255, 255, 0.05)
+  );
+  border: 2px solid #fff;
+}
