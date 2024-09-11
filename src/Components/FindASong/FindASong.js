@@ -9,7 +9,7 @@ import Image from "next/image";
 function FindASong() {
   return (
     <div
-      className="w-[90%]  mt-[2.5rem]  rounded-md p-[2rem] border-2 border-white  h-[12rem] flex items-center justify-between"
+      className="w-[90%]  mt-[2.5rem]  rounded-md p-[2rem] border-2 border-white  h-[12rem] flex items-center justify-between md:flex sm:grid-cols-1 xs:grid-cols-1 xs:grid sm:grid xs:gap-[1rem] sm:gap-[1rem]"
       style={{
         backgroundImage: `url("${backgroundImage.src}")`,
         backgroundRepeat: "no-repeat",

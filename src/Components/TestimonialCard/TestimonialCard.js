@@ -3,8 +3,8 @@ import img from "@/Assets/Icon.png";
 import Image from "next/image";
 function TestimonialCard() {
   return (
-    <div className="bg-white w-[25rem] flex items-center justify-center flex-col relative py-[2.5rem] px-[2rem] rounded-md gap-4">
-      <Image src={img} alt="img" className="absolute top-[-2rem]" />
+    <div className="bg-white  flex items-center justify-center flex-col relative py-[2.5rem] px-[2rem] rounded-md gap-4">
+      <Image src={img} alt="img" className="absolute top-[0rem]" />
       <div className="flex items-start justify-start gap-2 flex-col">
         <h6 className="text-testimonialHeading">Workshop Experience</h6>
         <p className="text-heading">

@@ -6,8 +6,14 @@ function AboutSection() {
   return (
     <div className="w-[90%] bg-[white] mt-[8.5rem] rounded-md p-2 px-4 flex flex-col gap-4">
       <h2 className="text-subHeading text-5xl font-bold ">About Us</h2>
-      <div className="grid grid-cols-2 gap-4">
-        <Image src={about} alt="about" className="object-contain rounded-md" />
+      <div className="grid grid-cols-2 gap-4 sm:grid-cols-1 xs:grid-cols-1 md:grid-cols-2">
+        <div className="w-full flex items-center justify-center">
+          <Image
+            src={about}
+            alt="about"
+            className="object-contain rounded-md"
+          />
+        </div>
         <div className="w-full flex flex-col items-start justify-start gap-2">
           <h2 className="text-subHeading text-3xl font-semibold">
             About Us First

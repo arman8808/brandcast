@@ -6,7 +6,7 @@ function WhatWeOffer() {
       <h2 className="text-white text-5xl font-bold flex items-center">
         WHAT WE OFFER <span className="text-golden">!</span>
       </h2>
-      <div className="mt-4 grid grid-cols-4 gap-4 mt-[3.5rem]">
+      <div className="mt-4 grid grid-cols-4 gap-4 mt-[3.5rem] mt-4 sm:grid-cols-2 xs:grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
         <WhatWeOfferCard />
         <WhatWeOfferCard />
         <WhatWeOfferCard />

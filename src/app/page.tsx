@@ -9,10 +9,11 @@ import WhatWeOffer from "@/Components/WhatWeOffer/WhatWeOffer";
 import FindASong from "@/Components/FindASong/FindASong";
 import Testimonial from "@/Components/Testimonial/Testimonial";
 import InterViewWithTopThinker from "@/Components/InterViewWithTopThinker/InterViewWithTopThinker";
+import Footer from "@/Components/Footer/Footer";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between py-[1rem] gap-[2rem]">
+    <main className="flex min-h-screen flex-col items-center justify-between pt-[1rem] gap-[2rem]">
       <Navbar />
       <HeroSection />
       <AboutSection />
@@ -23,6 +24,7 @@ export default function Home() {
       <FindASong />
       <Testimonial />
       <InterViewWithTopThinker />
+      <Footer />
     </main>
   );
 }
