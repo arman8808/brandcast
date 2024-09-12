@@ -9,7 +9,7 @@ import Image from "next/image";
 function FindASong() {
   return (
     <div
-      className="w-[90%]  mt-[2.5rem]  rounded-md p-[2rem] border-2 border-white  h-[12rem] xs:h-[15rem] md:h-[12rem] flex items-center justify-between md:flex sm:grid-cols-1 xs:grid-cols-1 xs:grid sm:grid xs:gap-[1rem] sm:gap-[1rem]"
+      className="w-[90%]  mt-[2.5rem]  rounded-md p-[2rem] border-2 border-white  h-[12rem] xs:h-[25rem] md:h-[12rem] flex items-center justify-between md:flex sm:grid-cols-1 xs:grid-cols-1 xs:grid sm:grid xs:gap-[1rem] sm:gap-[1rem]"
       style={{
         backgroundImage: `url("${backgroundImage.src}")`,
         backgroundRepeat: "no-repeat",
@@ -21,7 +21,7 @@ function FindASong() {
       <h2 className="text-white text-5xl font-bold flex items-center custom-underline ">
         Find A&nbsp; <span className="text-golden">Song!</span>
       </h2>
-      <span className="flex items-center ">
+      <span className="flex items-center xs:flex-wrap sm:flex-nowrap">
         <Image src={youtube} alt="youtube" />
         <Image src={amazonMusic} alt="amazonMusic" />
         <Image src={spotify} alt="spotify" />

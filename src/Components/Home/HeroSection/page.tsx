@@ -44,7 +44,7 @@ const page = () => {
           needs.
         </p>
         <div className="flex gap-[1rem] items-center ">
-          <Image src={Icon} alt="icon" />
+          <Image src={Icon} alt="icon" className="xs:hidden sm:block" />
           <Image src={ProgessImage} alt="progessImage" />
 
           <div className="relative w-fit xs:hidden sm:block">
