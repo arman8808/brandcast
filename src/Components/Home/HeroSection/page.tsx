@@ -54,7 +54,7 @@ const page = () => {
             </div>
           </div>
           <div className="xs:hidden sm:block">
-            <p>Let's See</p>
+            <p>Lets See</p>
             <p>How We Did It</p>
           </div>
         </div>
