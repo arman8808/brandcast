@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import LogoImage from "@/Assets/Logo.png";
+import Link from "next/link";
 
 const page = () => {
   return (
@@ -11,7 +12,7 @@ const page = () => {
         className="w-[300px] xs:w-[150px] sm:w-[300px]"
       />
       <button className="text-black border border-[1px] border-solid border-black rounded-[10px] h-fit w-fit p-[10px] xs:p-[5px] sm:p-[10px]">
-        Contact Us
+        <Link href="#contactForm">Contact Us</Link>
       </button>
     </div>
   );

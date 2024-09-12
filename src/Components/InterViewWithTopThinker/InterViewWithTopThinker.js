@@ -20,7 +20,10 @@ function InterViewWithTopThinker() {
           It is a long established fact that a reader will be distracted by the
           readable content of a page when looking at its layout.
         </p>
-        <span className="flex items-center md:flex md:items-center md:justify-between md:flex-row justify-between gap-2 sm:flex sm:flex-col-reverse sm:items-start xs:flex xs:flex-col-reverse xs:items-start">
+        <span
+          id="contactForm"
+          className="flex items-center md:flex md:items-center md:justify-between md:flex-row justify-between gap-2 sm:flex sm:flex-col-reverse sm:items-start xs:flex xs:flex-col-reverse xs:items-start"
+        >
           <button className="bg-golden px-2 py-1 rounded-md">
             Call Us Now
           </button>

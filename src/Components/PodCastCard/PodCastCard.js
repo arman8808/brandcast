@@ -6,7 +6,7 @@ import micPic from "@/../../public/Images/Group 106.png";
 // import music from "../../Assets/audio/heroAudio.mp3";
 function PodCastCard() {
   return (
-    <div className="flex flex-col gap-3 shadow rounded-md p-2 cursor-pointer">
+    <div className="flex flex-col gap-3 shadow rounded-md p-2 py-4 cursor-pointer">
       <div className="flex items-center gap-2 flex ">
         <Image src={img} alt="img" className="w-[60%]" />
         <span className="flex items-start justify-center gap-2 flex-col">

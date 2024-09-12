@@ -39,7 +39,7 @@ function Testimonial() {
       <Image
         src={backgroundImage}
         alt="backgroundImage"
-        className="absolute w-full h-full object-contain p-2"
+        className="absolute w-full h-full object-contain p-2 xs:hidden sm:flex"
       />
       <div className="flex items-center justify-center w-[50%] xs:py-4 xs:w-[95%] sm:w-[80%] md:w-[50%]">
         <AliceCarousel

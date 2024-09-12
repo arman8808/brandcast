@@ -71,7 +71,7 @@ const page = () => {
         </div>
       </div>
       <div
-        className="bg-white absolute w-[80%] xs:w-[90%] rounded-md bottom-[-8rem] xs:bottom-[-2.5rem] sm:bottom-[-7rem] md:bottom-[-7.5rem] lg:bottom-[-8rem] xs:py-4 sm:py-3 md:py-1"
+        className="bg-white absolute w-[80%] xs:w-[90%] rounded-md bottom-[-8rem] xs:bottom-[-2.5rem] sm:bottom-[-7rem] md:bottom-[-7.5rem] lg:bottom-[-11rem] xs:py-4 sm:py-3 md:py-1"
         // style={{ backgroundImage: `url('${numbersBGImage}')` }}
       >
         <div className="w-full h-full relative flex flex-col items-center justify-center">

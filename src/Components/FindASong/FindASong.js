@@ -21,7 +21,7 @@ function FindASong() {
       <h2 className="text-white text-5xl font-bold flex items-center custom-underline ">
         Find A&nbsp; <span className="text-golden">Song!</span>
       </h2>
-      <span className="flex items-center xs:flex-wrap sm:flex-nowrap">
+      <span className="flex items-center xs:grid xs:grid-cols-3 sm:flex">
         <Image src={youtube} alt="youtube" />
         <Image src={amazonMusic} alt="amazonMusic" />
         <Image src={spotify} alt="spotify" />

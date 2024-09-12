@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 function AboutSection() {
   return (
-    <div className="w-[90%] bg-[white] mt-[8.5rem] xs:mt-[2.5rem] sm:mt-[7rem] rounded-md p-2 px-4 flex flex-col gap-4">
+    <div className="w-[90%] bg-[white] mt-[8.5rem] xs:mt-[2.5rem] sm:mt-[7rem] md:mt-[11rem] rounded-md p-2 px-4 flex flex-col gap-4">
       <h2 className="text-subHeading text-5xl font-bold ">About Us</h2>
       <div className="grid grid-cols-2 gap-4 sm:grid-cols-1 xs:grid-cols-1 md:grid-cols-2">
         <div className="w-full flex items-center justify-center">

@@ -4,8 +4,8 @@ import Image from "next/image";
 function TestimonialCard() {
   return (
     <div className="bg-white  flex items-center justify-center flex-col relative py-[2.5rem] px-[2rem] rounded-md gap-4">
-      <Image src={img} alt="img" className="absolute top-[0rem]" />
-      <div className="flex items-start justify-start gap-2 flex-col">
+      <Image src={img} alt="img" className="absolute top-[0rem] " />
+      <div className="flex items-start justify-start gap-2 flex-col xs:mt-[2rem] sm:mt-[1rem] md:mt-[0.5rem]">
         <h6 className="text-testimonialHeading">Workshop Experience</h6>
         <p className="text-heading">
           Attending [Workshop Name] was an enlightening experience. The sessions
