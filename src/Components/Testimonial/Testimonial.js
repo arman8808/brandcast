@@ -35,7 +35,7 @@ function Testimonial() {
     </button>
   );
   return (
-    <div className="w-[90%] mt-[2.5rem] h-[33rem] custom-linear-background rounded-md flex items-center justify-center p-4 relative">
+    <div className="w-[90%] mt-[2.5rem] h-[33rem] xs:h-[36rem] sm:h-[33rem] custom-linear-background rounded-md flex items-center justify-center p-4 relative">
       <Image
         src={backgroundImage}
         alt="backgroundImage"

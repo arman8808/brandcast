@@ -11,8 +11,8 @@ import Image from "next/image";
 import Marquee from "react-fast-marquee";
 function InterViewWithTopThinker() {
   return (
-    <div className="w-[90%]  mt-[2.5rem] h-[15rem] sm:h-[20rem] md:h-[15rem] bg-[#060606] p-4 rounded-md grid grid-cols-2 gap-4 xs:grid-cols-1 sm:grid-cols-2 overflow-hidden">
-      <div className="w-full h-full flex items-start justify-between flex-col gap-4">
+    <div className="w-[90%]  mt-[2.5rem] h-[15rem] xs:h-[21rem] sm:h-[20rem] md:h-[15rem] bg-[#060606] p-4 rounded-md grid grid-cols-2 gap-4 xs:grid-cols-1 sm:grid-cols-2 overflow-hidden">
+      <div className="w-full h-full flex items-start justify-between flex-col gap-4 xs:gap-1 sm:gap-3">
         <h2 className="text-xl font-semibold">
           Interviews with top thinkers, founders,
         </h2>
@@ -20,11 +20,11 @@ function InterViewWithTopThinker() {
           It is a long established fact that a reader will be distracted by the
           readable content of a page when looking at its layout.
         </p>
-        <span className="flex items-center justify-between gap-2">
+        <span className="flex items-center md:flex md:items-center md:justify-between md:flex-row justify-between gap-2 sm:flex sm:flex-col-reverse sm:items-start xs:flex xs:flex-col-reverse xs:items-start">
           <button className="bg-golden px-2 py-1 rounded-md">
             Call Us Now
           </button>
-          <form className="flex items-center justify-center gap-2">
+          <form className="flex items-center justify-center gap-2 xs:flex-col xs:items-start sm:flex-row">
             <input
               type="text"
               className="outline-none border-none rounded-md p-1 pl-2"

@@ -10,7 +10,7 @@ function LatestPodCast() {
         <Image
           src={titleImage}
           alt="titleImage"
-          className="object-contain h-[5rem]"
+          className="object-contain h-[5rem] xs:hidden sm:block"
         />
       </h2>
       <div className="grid grid-cols-4 gap-2 mt-4 sm:grid-cols-2 xs:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-5">

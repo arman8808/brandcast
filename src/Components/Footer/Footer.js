@@ -5,8 +5,8 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 function Footer() {
   return (
     <div className="w-full bg-black py-[2rem]  flex items-center justify-center flex-col gap-4">
-      <div className="w-[90%] grid grid-cols-2 pb-4">
-        <div className="flex items-start justify-center gap-4">
+      <div className="w-[90%] grid grid-cols-2 pb-4 xs:grid-cols-1 md:grid-cols-2 ">
+        <div className="flex items-start justify-center gap-4 xs:flex-col md:flex-row">
           <Image src={logo} alt="logo" className="object-contain h-[4.5rem]" />
           <span className="flex items-start justify-start flex-col gap-2">
             <p className="text-textColor">
@@ -18,7 +18,7 @@ function Footer() {
             <p className="text-textColor">admin@branding360.in</p>
           </span>
         </div>
-        <div className="flex items-start justify-center gap-[3rem]">
+        <div className="flex items-start justify-center gap-[3rem] xs:flex-col md:flex-row">
           <span className="flex items-start justify-start flex-col gap-2">
             <p className="text-textColor font-semibold">Product</p>
             <ul className="text-textColor flex flex-col gap-1">
